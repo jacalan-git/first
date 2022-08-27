@@ -1,0 +1,134 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,  initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main id="main-doc">
+        <!--section elements, each with a class of main-section. There should be a minimum of five-->
+        <section class="main-section" id="First_Section">
+          <header>First Section</header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <code></code>
+        </section>
+        <section class="main-section" id="Second_Section">
+          <header>Second Section</header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <code></code>
+        </section>
+        <section class="main-section" id="Third_Section"><header>Third Section</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <code></code></section>
+        <section class="main-section" id="Fourth_Section"><header>Fourth Section</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <code></code></section>
+        <section class="main-section" id="Fifth_Section"><header>Fifth Section</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <code></code>
+          <ul><h3>List of Examples</h3>
+          <li>example1</li>
+          <li>example2</li>
+          <li>example3</li>
+          <li>example4</li>
+          <li>example5</li>
+          </uL></section>
+      </main>
+      <nav id="navbar">
+        <header id="nav-header">Technically A Document</header>
+        <a class="nav-link" href="#First_Section">First Section</a>
+        <a class="nav-link" href="#Second_Section" >Second Section</a>
+        <a class="nav-link" href="#Third_Section">Third Section</a>
+        <a class="nav-link" href="#Fourth_Section">Fourth Section</a>
+        <a class="nav-link" href="#Fifth_Section">Fifth Section</a>
+      </nav>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color:#ccbbaa;
+}
+
+.main-section{
+position:relative;
+left:20%;
+margin-left:20px;
+max-width:75%;
+background-color:#FAEBD7;
+color:#A0522D;
+}
+
+#nav-header{
+
+}
+header{
+  font-weight:bold;
+  font-size:3vw;
+  margin-top:10px;
+}
+
+#navbar{
+  background-color:#CD853F;
+width:20%;
+height:100%;
+position:fixed;
+top:0;
+left:0:;
+z-index:1;
+overflow-x:hidden;
+}
+.nav-link{
+  display:block;
+  margin-top:8px;
+  font-size:2.3vw;
+  
+}
+a{
+  border:6px outset #CD853F;
+  border-radius:10px;
+  height:12%;
+  background-color:#ffffff15;
+  padding-left:10px;
+  padding-top:20px;
+
+}
+a:hover{
+  font-weight:bold;
+  border:6px inset #CD853F;
+  background-color:#00000010;
+  text-shadow:0px 0px 20px #FAEBD7,0px 0px 15px #FAEBD7,0px 0px 15px #FAEBD7,0px 0px 15px;
+  box-shadow:0px 0px 20px white;
+}
+a:link{
+  color:black;
+  text-decoration:none;
+}
+a:visited{
+  color:black;
+  text-decoration:none;
+  border-color:#CD853F;
+}
+html{
+  font-family:arial;
+}
+p{
+  font-weight:bold;
+}
+@media only screen and (max-width: 200px){
+body{
+  background-color:blue;
+
+}
+}
+
+** end of undefined **
+
